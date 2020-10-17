@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0 20px;
+    align-items: center;
+    transition: .5s ease all;
+}
+.nav__logo{
+    width: 120px;
+    height: 60px;
+}
+.nav__logo1{
+    width: 80px;
+    height: 30px;
+    object-fit: contain;
+}
+.nav__black{
+    background-color: #111;
+}
+
+@media (max-width:786px){
+    .nav{
+        padding: 0 0px;
+    }
+}
