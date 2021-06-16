@@ -12,6 +12,7 @@
 .nav__logo{
     width: 120px;
     height: 60px;
+    padding: 20px 0;
 }
 .nav__logo1{
     width: 80px;
@@ -20,6 +21,7 @@
 }
 .nav__black{
     background-color: #111;
+    z-index: 1;
 }
 
 @media (max-width:786px){

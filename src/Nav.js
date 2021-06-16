@@ -22,8 +22,9 @@ const Nav = () => {
 
     return (
         <div className={`nav ${show && "nav__black"}`}>
-            <img className="nav__logo" src={netflixLogo} alt="Netflix"/>
-            <img className="nav__logo1" src={message} alt="Message"/>
+            {/* <a href="https://www.freepnglogos.com/pics/netflix-logo-png">Netflix Logo from freepnglogos.com</a> */}
+            {/* <a href="https://www.freepnglogos.com/pics/netflix-logo-png" title="Image from freepnglogos.com"><img src="" width="200" alt="netflix logo" /></a> */}
+            <img className="nav__logo" src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="Netflix"/>
         </div>
     )
 }

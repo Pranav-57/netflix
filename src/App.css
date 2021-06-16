@@ -4,3 +4,10 @@
     color: white;
     font-family: 'Cormorant', serif;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+    border-radius: 10px;
+}
